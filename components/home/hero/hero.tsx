@@ -7,8 +7,8 @@ import HeroImage from "../../../public/heropageImage.png";
 import texture from "../../../public/heroPageTexture.png";
 import { ResponsiveHero } from "./responsive-hero";
 
-const rows = 7;
-const columns = 15;
+const rows = 10;
+const columns = 20;
 export function Hero() {
   return (
     <div className="lg:px-30 mt-28 sm:mt-40 sm:px-0 md:px-20 xl:px-60">
@@ -88,7 +88,7 @@ export function Hero() {
                   </div>
                 </div>
               </div>
-              <div className="absolute bottom-2 right-48 z-0 hidden h-[257px] w-[560px] border border-[#E6E6E6] xl:block">
+              <div className="absolute bottom-2 right-48 z-0 hidden h-[257px] w-[560px] overflow-hidden border border-[#E6E6E6] xl:block">
                 {Array.from({ length: rows }).map((_, rowIndex) => (
                   <div key={rowIndex} className="flex">
                     {Array.from({ length: columns }).map((_, colIndex) => (
