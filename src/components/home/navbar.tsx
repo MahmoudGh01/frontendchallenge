@@ -2,7 +2,7 @@ import React from "react";
 
 import Image from "next/image";
 
-import more from "../../public/more.png";
+import more from "../../../public/more.png";
 
 export function Navbar() {
   return (
@@ -14,7 +14,8 @@ export function Navbar() {
         <div className="text-xs font-bold uppercase">/interaction design</div>
       </div>
       <div className="flex items-center space-x-11">
-        <div className="z-10 mt-16 hidden h-full rounded-full border-green-500 bg-emerald-600 p-8 font-bold md:block">
+        <div className="z-10 mt-16 hidden h-full rounded-full border-green-500 bg-emerald-600 p-8 font-bold hover:bg-emerald-700 md:block">
+
           <div className="flex flex-col items-center justify-center -space-y-2">
             <div className="font-roboto uppercase">APPLY</div>
             <div className="font-roboto uppercase">NOW</div>
