@@ -1,6 +1,9 @@
-import Image from "next/image";
-
+import { StickyBottom } from "@/components/home/sticky-bottom";
 export default function Home() {
-  return <div className="min-h-screen bg-white"></div>;
-}
+  return (
+      <div className="min-h-screen bg-white">
+        <StickyBottom />
+      </div>
+
+);}
 
