@@ -13,7 +13,7 @@ const columns = 20;
 export function AboutSection() {
   return (
     <div className="">
-      <div className="lg:px-30 mb-96 hidden sm:block sm:px-0 md:px-20 xl:px-60">
+      <div className="lg:px-30 hidden sm:block sm:px-0 md:px-20 xl:px-60">
         <div className="mt-96 grid grid-cols-1 lg:grid-cols-2">
           {/* first column */}
           <div className="relative ml-20 h-[438px] w-[438px] overflow-hidden rounded-full border border-slate-300 lg:ml-0">
@@ -142,7 +142,7 @@ export function AboutSection() {
         </div>
       </div>
       {/* small screen */}
-      <div className="mb-64 block sm:hidden">
+      <div className="block sm:hidden">
         <div className="mt-36 flex flex-col items-center justify-center">
           {/* first column */}
           <div className="">
@@ -228,7 +228,7 @@ export function AboutSection() {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <Separator className="w-[86.7px] bg-slate-300" />{" "}
+          <Separator className="w-[86.7px] bg-slate-300" />
           <div className="mx-10 text-xs font-bold">GRADUATION</div>
           <Separator className="w-[86.7px] bg-slate-300" />
         </div>
